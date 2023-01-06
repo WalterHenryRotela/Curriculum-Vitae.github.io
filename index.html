@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Curriculum Vitae</title>
+        <meta charset="utf-8"> 
+        <link rel="icon" type="image/png" href="VD.png">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <button id="button" class="hidden">Ir al comienzo</button>
+        <script src="sintaxis.js" type="text/javascript"></script>
+    </head>
+   
+    <body>
+      <!-- Esta es la cabecera de la página --> 
+        <header>
+            <!-- Otros elementos de la cabecera -->
+            <form id="formulario" class="formulario-header">
+            <!-- Campos del formulario -->
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <div id="error-nombre" class="error">Por favor, introduce tu nombre</div>
+            <br>
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <div id="error-email" class="error">Por favor, introduce una dirección de correo electrónico válida</div>
+            <br>
+            <input type="submit" value="Enviar">
+          </form>
+          
+
+            <img src="perfil.png" width="200" height="200" style="display: block; margin: auto;">
+            <h1 style="text-align: center;">Walter Henry Rotela</h1>
+            <h2 style="text-align: center;">Aspirante a Programador de Videojuegos</h2>
+            <div class="enlaces-header">
+                <a class="enlace-header" href="tel:3704-038084"><img src="what.png" alt="Teléfono width="30px" height="30px">Teléfono</a>
+                <a class="enlace-header" href="mailto:henryrotela@gmail.com"><img src="email.png" alt="Dirección de correo width="30px" height="30px">Dirección de correo</a>
+                <a class="enlace-header" href="https://www.instagram.com/pixelargboy/"><img src="instagram.png" alt="Instagram"  width="20px" height="20px">Instagram</a>
+              </div> 
+        </header>
+        <nav>
+            <a href="#perfil">Perfil</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#educacion">Educación</a>
+            <a href="#project">proyecto</a>
+            <a href="#Testimonios">Testimonios</a>
+        </nav>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <!-- Este es el contenido principal de la página -->
+        
+          <main>
+            <section id="perfil">
+              <h3>Perfil</h3>
+              <p>
+                Soy un diseñador grafico que lleva años en el trabajo de comunicar a traves de las imagenes y signos.
+                hace un año empece a cursar el "Argentina programa" y ahora estoy en la capacitacion de front end, donde
+                estoy especializandome en HTML, CSS y Javascript, tengo tambien ciertos conocimientos de c# y GDScript
+                me gustaria poder formar parte de su empresa para poder seguir formandome y tener una mayor experiencia 
+                en el rubro de desarrollo de Videojuegos.</p>
+            </section>
+
+            <section id="habilidades">
+              <h3>Habilidades</h3>
+              <ul>
+                <li>
+                  <p>
+                  Tengo conocimientos en diseño grafico y marketing, ya e trabajado en varias empresas ayudandolas a crear
+                  su propia marca empresarial.
+                </p>
+                </li>
+                <li><p> soy un Artista Pixel", especializado en creacion de sprites y tileset en videojuegos</p></li>
+                <li><p>Tambien tengo conocimientos en programacion de lenguajes como Javascript,gdscript y c#</p></li>
+              </ul>
+            </section>
+            <section id="experiencia">
+
+              <h3>Experiencia</h3>
+              <article>
+                <h2>Diseñador grafico</h2>
+                <p>como les comente soy diseñador grafico y artista pixel, estuve en el desarrollo artistico de algunos juegos
+                  como go carpincho y Capitan Carpincho que aun esta en proceseo, fui quien diseño las animaciones y los sprite.
+                </p>
+              </article>
+              <article>
+                <h2>Programador Junior</h2>
+                <p>hace poco me empece a especializar en la programacion, y estado en "Capitan Carpincho" escribiendo codigo
+                  tanto para personajes y enemigos, usando GDScript en Godot 4, y ahora me estoy especializando en otros lenguajes
+                  para mejorar en mi sintaxis de escribir codigos.
+                 </p>
+              </article>
+            </section>
+
+            <section id="educacion">
+              <h3>Educación</h3>
+              <article>
+                <h2>Título en diseño Grafico</h2>
+                <p>Tengo un titulo en diseño grafico del instituto Albertazzi, un magister y varios cursos hechos en Domestika y udemy.</p>
+              </article>
+              <article>
+                <h2>Titulos secundarios</h2>
+                <p>
+                  Tambien como mencione arriba, tengo algunos cursos en diseño grafico en cursos de especializacion en Domestika y udemy
+                  donde estuve hacien html, css, javascript y c#, ahora estoy haciendo "Argentina programa" donde ya aprobe la primera fase
+                  y ahora estoy haciendo la especializacion en "front end". 
+                </p><br><br>
+              </article>
+            </section>
+             <section id="project">
+              <h3>proyectos</h3>
+            <ul id="projects">
+              <li> 
+                <h2>Pagina de una heladeria</h2>
+                 <p>esta es una pagina que diseñe en un curso de domestika sobre una heladeria</p>
+                <img src="heladeria.png" alt="pagina de heladeria">
+                <div class="details">
+                 
+                </div>
+              </li>
+              <li>
+                <h2>Pagina de una Heladeria</h2>
+                <p>este es otra pagina que cree un otro curso de Domestika</p>
+                <img src="proyecto 1.png" alt="pagina de una cafeteria">
+                <div class="details">
+                  
+                </div>
+              </li>
+              <!-- Más imágenes y detalles de proyectos -->
+            </ul>
+          </section>
+          <section id="Testimonios">
+            <h3>Testimonios</h3>
+            <br><br>
+            <blockquote title="Leonardo Dicaprio">
+              "Trabajar con ellos ha sido una experiencia increíble. Han sido muy profesionales y han entregado el trabajo a tiempo."
+              
+            </blockquote>
+            <br><br>
+            <blockquote title="Ricardo Fort">
+
+              
+                quote: "Su atención al cliente es excelente. Siempre están dispuestos a ayudar y resolver cualquier problema que pueda surgir."
+              
+            </blockquote>
+             <br><br>
+            <blockquote title="Benicio del Toro">
+              "Su creatividad y flexibilidad han sido clave para el éxito del proyecto. Muy recomendables."
+            </blockquote>
+            <br><br>
+            <blockquote title="Alpacino">
+
+              "La calidad de su trabajo es excelente y siempre cumplen con los plazos de entrega. Muy satisfecho con la colaboración."
+            </blockquote>
+            
+          </section>
+          </main>
+          <!-- Este es el contenido final -->
+          <footer>
+            <div class="footer-text">
+            <p>Copyright 2023, todos los derechos reservados</p>
+          </footer>
+    </body>
+    </HTml>
